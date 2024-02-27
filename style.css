@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: linear-gradient(to bottom right,#1f2227,#1f2227a7);
+  }
+  
+  #calculator {
+    text-align: center;
+    height: 60%;
+    width: 60%;
+  }
+
+  input {
+    width: 60%;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    background-color: #3f4955;
+    color: aliceblue;
+}
+
+button {
+    width: 70px;
+    height: 70px;
+    font-size: 18px;
+    margin: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    margin: 10px;
+    background-color: #1c2029;
+    color: azure;
+    border-radius: 50%;
+  }
